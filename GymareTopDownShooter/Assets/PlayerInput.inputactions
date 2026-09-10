@@ -7,7 +7,7 @@
             "id": "094401f8-77e9-496b-b4c2-64956ad56476",
             "actions": [
                 {
-                    "name": "New action",
+                    "name": "Move",
                     "type": "Value",
                     "id": "b217c7f9-84be-41a0-8885-890ba44efe87",
                     "expectedControlType": "Vector2",
@@ -15,17 +15,124 @@
                     "interactions": "",
                     "initialStateCheck": true,
                     "priority": 0
+                },
+                {
+                    "name": "Aim",
+                    "type": "Value",
+                    "id": "fe74141a-1c0f-4db2-b6c7-99e40d3e7549",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                },
+                {
+                    "name": "Action1",
+                    "type": "Button",
+                    "id": "d194f14a-bcf5-426b-b75a-e5a8439baa84",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Action2",
+                    "type": "Button",
+                    "id": "6083ceeb-3d3d-4357-8371-815c56714c26",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "90547852-f26c-4c0c-b295-5c870d7cdf16",
-                    "path": "",
+                    "name": "WASD",
+                    "id": "b90cb23b-ccc8-4df2-a3da-9e48d03fa2a1",
+                    "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "New action",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "228888f4-6005-4c8a-82e3-5fe77e2d0d12",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "1f1f9cbf-1190-4f82-8e5c-15e7f8eba702",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "aee29804-9f34-4c23-b53e-88bd96ebc570",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "2a69299f-89ec-46b9-b575-d7549029db53",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "8e270cec-7a1a-42d0-acee-ed2d5faf299d",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57c22e69-b745-4fe7-b22a-a8d228d605c0",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "20015cdc-b26d-4912-8d66-3c44252f2f98",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Action2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
