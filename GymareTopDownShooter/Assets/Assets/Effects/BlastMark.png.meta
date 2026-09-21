@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: eed7ab74ffe8e9244b5c8049f88192f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7419339278283862974
+    second: BlastMark_0
+  - first:
+      213: -15944474849143267
+    second: BlastMark_1
+  - first:
+      213: 1298358929957710765
+    second: BlastMark_2
+  - first:
+      213: -5772098724814058344
+    second: BlastMark_3
+  - first:
+      213: -4824965665751069274
+    second: BlastMark_4
+  - first:
+      213: 4845435395979093886
+    second: BlastMark_5
+  - first:
+      213: 8569419766761151000
+    second: BlastMark_6
+  - first:
+      213: -5186068855653799611
+    second: BlastMark_7
+  - first:
+      213: 7337956423400006737
+    second: BlastMark_8
+  - first:
+      213: 3293173733466006696
+    second: BlastMark_9
+  - first:
+      213: 3619237657943331254
+    second: BlastMark_10
+  - first:
+      213: 7932845679284811894
+    second: BlastMark_11
+  - first:
+      213: -2726654001186363185
+    second: BlastMark_12
+  - first:
+      213: -5707188917150293588
+    second: BlastMark_13
+  - first:
+      213: -7097865083883801172
+    second: BlastMark_14
+  - first:
+      213: -7621948820115715318
+    second: BlastMark_15
+  - first:
+      213: 7666931528476523362
+    second: BlastMark_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlastMark_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 91
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb37636a3c9c6f660800000000000000
+      internalID: 7419339278283862974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 91
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d169c78a59a57cff0800000000000000
+      internalID: -15944474849143267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 91
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabe51b5192b40210800000000000000
+      internalID: 1298358929957710765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 91
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c09faaac265efa0800000000000000
+      internalID: -5772098724814058344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 91
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad837f6a474a0db0800000000000000
+      internalID: -4824965665751069274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 91
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77207702d17e3340800000000000000
+      internalID: 4845435395979093886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 91
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a520900e1bce670800000000000000
+      internalID: 8569419766761151000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 91
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549e90e4ad16708b0800000000000000
+      internalID: -5186068855653799611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_8
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 91
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154ad0a2d78a5d560800000000000000
+      internalID: 7337956423400006737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 91
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a463e60014b3bd20800000000000000
+      internalID: 3293173733466006696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 83
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1dd6f697d1a3230800000000000000
+      internalID: 3619237657943331254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1
+        width: 55
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67873c38d11271e60800000000000000
+      internalID: 7932845679284811894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8a3e1e1aaf82ad0800000000000000
+      internalID: -2726654001186363185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1e537faedfbc0b0800000000000000
+      internalID: -5707188917150293588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca53573ff415f7d90800000000000000
+      internalID: -7097865083883801172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_15
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b8bc05ee5693690800000000000000
+      internalID: -7621948820115715318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlastMark_16
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bf510aa99666a60800000000000000
+      internalID: 7666931528476523362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlastMark_0: 7419339278283862974
+      BlastMark_1: -15944474849143267
+      BlastMark_10: 3619237657943331254
+      BlastMark_11: 7932845679284811894
+      BlastMark_12: -2726654001186363185
+      BlastMark_13: -5707188917150293588
+      BlastMark_14: -7097865083883801172
+      BlastMark_15: -7621948820115715318
+      BlastMark_16: 7666931528476523362
+      BlastMark_2: 1298358929957710765
+      BlastMark_3: -5772098724814058344
+      BlastMark_4: -4824965665751069274
+      BlastMark_5: 4845435395979093886
+      BlastMark_6: 8569419766761151000
+      BlastMark_7: -5186068855653799611
+      BlastMark_8: 7337956423400006737
+      BlastMark_9: 3293173733466006696
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
