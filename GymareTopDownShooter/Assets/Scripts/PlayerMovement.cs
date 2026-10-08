@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Transform lowerBody;
     [SerializeField] Transform upperBody;
 
-    [SerializeField] Camera cam;
+    Camera cam;
 
     public bool canMove = true;
     public bool canTurn = true;
@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -35,7 +36,6 @@ public class PlayerMovement : MonoBehaviour
         Vector2 mouseWorld = cam.ScreenToWorldPoint(LookDir);
 
         Vector2 camOffset = (LookDir - res / 2) / res * lookOffsetSize;
-        print(camOffset);
         cam.transform.position = transform.position + new Vector3(camOffset.x, camOffset.y, cam.transform.position.z);
         //Vector2 lookVector = (LookDir - res / 2) + (Vector2)(cam.transform.position - transform.position).normalized;
 
