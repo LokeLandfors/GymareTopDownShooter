@@ -6,6 +6,7 @@ using Unity.Hierarchy;
 public class PlayerCombat : MonoBehaviour
 {
     [SerializeField] float grabReach;
+    [SerializeField] float throwVelocity;
     [SerializeField] float throwMinVel; //Minimum velocity to kill
     bool useWeapon => InputSystem.actions.FindAction("Action1").ReadValue<float>() > 0.3f;
     bool holdingUse;
@@ -33,11 +34,11 @@ public class PlayerCombat : MonoBehaviour
     {
         currentWeapon.parent = null;
         currentWeapon.position = transform.position;
-        currentWeapon.gameObject.SetActive(false);
+        currentWeapon.gameObject.SetActive(true);
         //currentWeapon.GetComponent<Collider2D>().isTrigger = false;
         currentWeapon.GetComponent<Collider2D>().enabled = true;
         currentWeapon.GetComponent<Rigidbody2D>().simulated = true;
-        currentWeapon.GetComponent<Rigidbody2D>().AddForce(upperBody.up, ForceMode2D.Impulse);
+        currentWeapon.GetComponent<Rigidbody2D>().AddForce(upperBody.up * throwVelocity, ForceMode2D.Impulse);
         currentWeapon = null;
     }
 
