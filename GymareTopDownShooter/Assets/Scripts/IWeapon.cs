@@ -2,5 +2,5 @@
 
 public interface IWeapon
 {
-    public void Use();
+    public void Use(string targetTag, Transform usePoint);
 }

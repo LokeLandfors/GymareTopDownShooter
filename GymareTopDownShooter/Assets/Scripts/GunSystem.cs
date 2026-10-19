@@ -11,40 +11,42 @@ public class GunSystem : MonoBehaviour, IWeapon
     [SerializeField] float recoilRecoverSpeed;
     [SerializeField] int ammo;
 
-    PoolManager bulletPool;
+    BulletManager bulletPool;
     float fireCool;
     float currentRecoil;
     int currentAmmo;
 
-    public void Use()
+    bool wasUsed;
+
+    public void Use(string targetTag, Transform usePoint)
     {
-        if (fireCool > 0 || ammo <= 0) return;
-        ammo -= 1;
+        if (fireCool > 0 || currentAmmo <= 0) return;
+        print(currentAmmo);
+        fireCool = 60/fireRate;
+        currentAmmo -= 1;
         if (bulletsPerShot == 1)
         {
-            Transform bullet = bulletPool.Enqeue();
-            bullet.position = transform.position;
-            bullet.rotation = transform.rotation * Quaternion.Euler(0,0,Random.Range(-currentRecoil, currentRecoil));
+            bulletPool.MakeBullet(usePoint.position, usePoint.rotation.z + Random.Range(-currentRecoil, currentRecoil), 20f, dmg, targetTag);
             currentRecoil += recoil;
             return;
         }
         
         for (int i = 0; i < bulletsPerShot; i++)
         {
-            Transform bullet = bulletPool.Enqeue();
-            bullet.position = transform.position;
-            bullet.rotation = transform.rotation * Quaternion.Euler(0, 0, Random.Range(-recoil, recoil));
+            bulletPool.MakeBullet(usePoint.position, usePoint.rotation.z + Random.Range(-recoil, recoil), 20f, dmg, targetTag);
         }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        bulletPool = GameObject.Find("BulletPool").GetComponent<PoolManager>();
+        bulletPool = GameObject.Find("BulletPool").GetComponent<BulletManager>();
+        currentAmmo = ammo;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        currentRecoil = Mathf.Clamp(currentRecoil - Time.fixedDeltaTime, 0, recoil * 3);
         fireCool -= Time.fixedDeltaTime;
     }
 }

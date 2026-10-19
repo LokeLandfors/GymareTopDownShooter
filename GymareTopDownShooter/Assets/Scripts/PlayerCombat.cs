@@ -24,7 +24,7 @@ public class PlayerCombat : MonoBehaviour
     void Grab(Transform grabTarget)
     {
         grabTarget.parent = transform;
-        grabTarget.gameObject.SetActive(false);
+        grabTarget.GetComponent<SpriteRenderer>().enabled = false;
         grabTarget.GetComponent<Collider2D>().enabled = false; //Weapon can no longer be grabbed since it is held
         grabTarget.GetComponent<Rigidbody2D>().simulated = false;
         currentWeapon = grabTarget;
@@ -34,7 +34,7 @@ public class PlayerCombat : MonoBehaviour
     {
         currentWeapon.parent = null;
         currentWeapon.position = transform.position;
-        currentWeapon.gameObject.SetActive(true);
+        currentWeapon.GetComponent<SpriteRenderer>().enabled = true;
         //currentWeapon.GetComponent<Collider2D>().isTrigger = false;
         currentWeapon.GetComponent<Collider2D>().enabled = true;
         currentWeapon.GetComponent<Rigidbody2D>().simulated = true;
@@ -47,7 +47,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (useWeapon && currentWeapon != null)
         {
-            currentWeapon.GetComponent<IWeapon>().Use();
+            currentWeapon.GetComponent<IWeapon>().Use("Enemy", upperBody);
         }
 
         Transform closestWeapon = GetClosestWeapon();

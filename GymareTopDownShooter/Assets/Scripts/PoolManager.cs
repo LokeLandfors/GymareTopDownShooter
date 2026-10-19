@@ -20,15 +20,18 @@ public class PoolManager : MonoBehaviour
 
     public Transform Enqeue()
     {
-        Transform given = pool[pool.Count-1] != null ? pool[pool.Count - 1] : Instantiate(prefab, transform);
-        given.gameObject.SetActive(false);
-        pool.RemoveAt(0);
-        return given;
+        if (pool.Count > 0)
+        {
+            Transform given = pool[pool.Count - 1];
+            pool.RemoveAt(pool.Count - 1);
+            return given;
+        }
+
+        return Instantiate(prefab, transform);
     }
 
     public void Reqeue(Transform obj)
     {
         pool.Add(obj);
-        obj.gameObject.SetActive(false);
     }
 }
