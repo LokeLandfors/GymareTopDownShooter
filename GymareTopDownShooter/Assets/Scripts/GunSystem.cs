@@ -26,14 +26,15 @@ public class GunSystem : MonoBehaviour, IWeapon
         currentAmmo -= 1;
         if (bulletsPerShot == 1)
         {
-            bulletPool.MakeBullet(usePoint.position, usePoint.rotation.z + Random.Range(-currentRecoil, currentRecoil), 20f, dmg, targetTag);
+            bulletPool.MakeBullet(usePoint.position, usePoint.eulerAngles.z + Random.Range(-currentRecoil, currentRecoil), 20f, dmg, targetTag);
             currentRecoil += recoil;
             return;
         }
         
         for (int i = 0; i < bulletsPerShot; i++)
         {
-            bulletPool.MakeBullet(usePoint.position, usePoint.rotation.z + Random.Range(-recoil, recoil), 20f, dmg, targetTag);
+            print(usePoint.rotation.z * Mathf.Rad2Deg);
+            bulletPool.MakeBullet(usePoint.position, usePoint.eulerAngles.z + Random.Range(-recoil, recoil), 20f, dmg, targetTag);
         }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
