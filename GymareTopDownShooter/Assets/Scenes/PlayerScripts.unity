@@ -477,6 +477,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 3
   lookOffsetSize: 10
+  dashSpeed: 8
+  dashLength: 5
+  dashCool: 0.2
   lowerBody: {fileID: 1247497015}
   upperBody: {fileID: 1998022561}
   canMove: 1

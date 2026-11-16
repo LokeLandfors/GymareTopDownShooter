@@ -45,7 +45,6 @@ public class PlayerCombat : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(InputSystem.actions.FindAction("Action2").ReadValue<float>());
         if (useWeapon && currentWeapon != null)
         {
             currentWeapon.GetComponent<IWeapon>().Use("Enemy", upperBody);
